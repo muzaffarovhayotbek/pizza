@@ -8,5 +8,5 @@ export interface PizzaModel {
 }
 
 export const Pizza = new DataStructure<PizzaModel>(
-  'https://localhost:3000/pizzas'
+  'http://localhost:3000/pizzas'
 );
