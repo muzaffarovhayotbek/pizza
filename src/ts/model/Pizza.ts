@@ -1,0 +1,12 @@
+import { DataStructure } from '../services/DataStructure';
+
+export interface PizzaModel {
+  title: string;
+  description: string;
+  toppings: string[];
+  price: number;
+}
+
+export const Pizza = new DataStructure<PizzaModel>(
+  'https://localhost:3000/pizzas'
+);
